@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(202, 189, 154);
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px;
+    border:rgb(255, 255, 255) solid 1px;
+}
