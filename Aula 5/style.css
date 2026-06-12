@@ -15,6 +15,7 @@ body{
     background-color: #222;
     padding: 20px;
     align-items: center;
+    border-left: 15px solid #808080;
 }
 
 .nav{
@@ -27,4 +28,53 @@ body{
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: #1E90FF;
+    transition: color 0.3s ease;
+    transform: scale(1.20);
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.produt{
+    background-color: #222;
+    width: 250px;
+    padding: 25px;
+    border-bottom: 5px solid #808080;
+    border-left: 5px solid #808080;
+    border-radius: 10px;
+}
+
+.produt h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.produt p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.produt button{
+    background-color: #808080;
+    color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.produt button:hover{
+    background-color: #1E90FF;
+    transition: background-color 0.3s ease;
+    transform: scale(1.10);
 }
