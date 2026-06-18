@@ -6,6 +6,7 @@
 body{
     background-color: #333;
     color: #f1f1f1;
+    height: 100px;
 }
 
 .menu{
@@ -76,5 +77,28 @@ body{
 .produt button:hover{
     background-color: #1E90FF;
     transition: background-color 0.3s ease;
-    transform: scale(1.10);
+    transform: scale(1.20);
+}
+
+.footer{
+    background-color: #222;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.redes-socias img{
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.redes-socias a{
+    display: flex;
+    gap: 20px;
 }
